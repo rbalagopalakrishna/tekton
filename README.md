@@ -2,3 +2,5 @@ kubectl create secret generic regcred --from-file=.dockerconfigjson=/root/.docke
 
 
 Replace git and docker URL in pipelineresources.yaml 
+
+kubectl apply -f tekton/
